@@ -1,0 +1,24 @@
+# .bash_profile
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+    . ~/.bashrc
+fi
+
+# User specific environment and startup programs
+alias otel-desktop-viewer="$(go env GOPATH)/bin/otel-desktop-viewer"
+alias otel-cli="$(go env GOPATH)/bin/otel-cli"
+export OTEL_EXPORTER_OTLP_ENDPOINT="http://localhost:4318"
+export OTEL_EXPORTER_OTLP_HEADERS="signoz-access-token=89bf3061-d424-4752-9848-d00fd6feb63b"
+alias otel-cli-server='$(go env GOPATH)/bin/otel-cli server tui'
+
+export TICKPICK_EMAIL='jonathan@thegmkgroup.com'
+export TICKPICK_PASSWORD='KBkb2424dev.'
+
+alias deno='/home/jjcombs/.deno/bin/deno'
+alias slack='/home/jjcombs/coding/slack_cli_2.32.0_linux_64-bit/bin/slack'
+alias ngrok='ngrok http http://localhost:8080'
+
+. "/home/jjcombs/.deno/env"
+. ~/.muh_profile #keep this as the last line
+. "$HOME/.cargo/env"
