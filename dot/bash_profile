@@ -1,0 +1,15 @@
+# .bash_profile
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+    . ~/.bashrc
+fi
+
+# User specific environment and startup programs
+alias otel-desktop-viewer="$(go env GOPATH)/bin/otel-desktop-viewer"
+alias otel-cli="$(go env GOPATH)/bin/otel-cli"
+alias otel-cli-server='$(go env GOPATH)/bin/otel-cli server tui'
+
+alias ngrok='ngrok http http://localhost:8080'
+
+. "$HOME/.cargo/env"
