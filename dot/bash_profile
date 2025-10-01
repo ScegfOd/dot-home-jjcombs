@@ -19,6 +19,4 @@ alias deno='/home/jjcombs/.deno/bin/deno'
 alias slack='/home/jjcombs/coding/slack_cli_2.32.0_linux_64-bit/bin/slack'
 alias ngrok='ngrok http http://localhost:8080'
 
-. "/home/jjcombs/.deno/env"
-. ~/.muh_profile #keep this as the last line
 . "$HOME/.cargo/env"
