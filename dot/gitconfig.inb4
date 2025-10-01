@@ -5,7 +5,5 @@
 	name = Jonathan Combs
 [init]
 	defaultBranch = development
-[core]
-#	editor = vim
 [commit]
 	verbose = true
