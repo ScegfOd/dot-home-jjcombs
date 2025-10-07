@@ -11,5 +11,7 @@ alias otel-cli="$(go env GOPATH)/bin/otel-cli"
 alias otel-cli-server='$(go env GOPATH)/bin/otel-cli server tui'
 
 alias ngrok='ngrok http http://localhost:8080'
+alias show='slp1'
+export EDITOR=vim
 
 . "$HOME/.cargo/env"
