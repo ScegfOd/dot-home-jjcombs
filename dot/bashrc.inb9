@@ -1,5 +1,3 @@
 if ! type rg &> /dev/null; then
-    echo "ripgrep (rg) not installed, install with the following:"
-    echo "sudo dnf install ripgrep -y"
+    echo "rg (a better grep) not installed"
 fi
-
