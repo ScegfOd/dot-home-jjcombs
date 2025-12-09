@@ -5,13 +5,14 @@ if [ -f ~/.bashrc ]; then
     . ~/.bashrc
 fi
 
-# User specific environment and startup programs
-alias otel-desktop-viewer="$(go env GOPATH)/bin/otel-desktop-viewer"
-alias otel-cli="$(go env GOPATH)/bin/otel-cli"
-alias otel-cli-server='$(go env GOPATH)/bin/otel-cli server tui'
+# for go/otel things if I want it everywhere:
+# alias otel-desktop-viewer="$(go env GOPATH)/bin/otel-desktop-viewer"
+# alias otel-cli="$(go env GOPATH)/bin/otel-cli"
+# alias otel-cli-server='$(go env GOPATH)/bin/otel-cli server tui'
 
 alias ngrok='ngrok http http://localhost:8080'
 alias show='slp1'
 export EDITOR=vim
 
-. "$HOME/.cargo/env"
+# for rust if I want it everywhere:
+# . "$HOME/.cargo/env"
