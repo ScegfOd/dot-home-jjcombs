@@ -1,0 +1,6 @@
+# show preview instead of vomiting really long lines to my terminal.
+--max-columns=100
+--max-columns-preview
+--vimgrep
+--glob=!.git/*
+--color=auto
