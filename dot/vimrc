@@ -2,3 +2,5 @@ set colorcolumn=80
 set tabstop=4 softtabstop=0
 set shiftwidth=4
 set expandtab
+
+map ** {!}par -w78<CR>
