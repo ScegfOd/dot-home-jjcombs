@@ -4,4 +4,4 @@ set shiftwidth=4
 set expandtab
 set textwidth=75
 
-map gqq {!}par -w78<CR>
+map gqq {!}par -w75<CR>
