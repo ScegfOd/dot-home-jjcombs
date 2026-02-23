@@ -1,0 +1,7 @@
+if ! type rg &> /dev/null; then
+    echo "rg (a better grep) not installed"
+fi
+
+if ! type fd &> /dev/null; then
+    echo "fd (a better find) not installed"
+fi
