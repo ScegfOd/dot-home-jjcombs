@@ -17,3 +17,5 @@ export EDITOR=vim
 
 # for rust if I want it everywhere:
 # . "$HOME/.cargo/env"
+
+export PS1="$ "
