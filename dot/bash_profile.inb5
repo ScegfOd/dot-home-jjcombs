@@ -14,6 +14,7 @@ alias ngrok='ngrok http http://localhost:8080'
 alias show='slp1'
 alias pull='git rebase'
 export EDITOR=vim
+PYTHONPYCACHEPREFIX=/home/jjc/.cache/pycache__
 
 # for rust if I want it everywhere:
 # . "$HOME/.cargo/env"
