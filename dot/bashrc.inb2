@@ -24,7 +24,7 @@ if [ -d ~/.bashrc.d ]; then
 fi
 unset rc
 
-PYTHONPYCACHEPREFIX=/home/jjc/.cache/pycache__
+export PYTHONPYCACHEPREFIX=/home/jjc/.cache/pycache__
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
