@@ -2,6 +2,9 @@ if ! type rg &> /dev/null; then
     echo "rg (a better grep) not installed"
 fi
 
-if ! type fd &> /dev/null; then
+if type fdfind &> /dev/null; then
+    alias fd=fdfind
+fi
+if ! type fdfind &> /dev/null && ! type fd &> /dev/null; then
     echo "fd (a better find) not installed"
 fi
