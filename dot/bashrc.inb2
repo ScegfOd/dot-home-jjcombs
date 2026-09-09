@@ -26,6 +26,8 @@ unset rc
 
 set -o vi
 
+export EDITOR=vim
+
 export PYTHONPYCACHEPREFIX="$HOME/.cache/pycache__"
 
 export NVM_DIR="$HOME/.nvm"
