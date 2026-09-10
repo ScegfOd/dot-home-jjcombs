@@ -26,6 +26,8 @@ unset rc
 
 set -o vi
 
+gsettings set org.gnome.desktop.interface gtk-enable-primary-paste true
+
 export EDITOR=vim
 
 export PYTHONPYCACHEPREFIX="$HOME/.cache/pycache__"
