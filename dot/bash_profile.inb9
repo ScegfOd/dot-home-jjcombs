@@ -8,3 +8,7 @@ fi
 if ! type fdfind &> /dev/null && ! type fd &> /dev/null; then
     echo "fd (a better find) not installed"
 fi
+
+#   To allow windows users to have cross-env in various package.json files
+#   without needing separate commands for Linux users
+alias cross-env=
