@@ -3,6 +3,7 @@ set tabstop=4 softtabstop=0
 set shiftwidth=4
 set expandtab
 set textwidth=75
+set mouse=
 
 " shamelessly stolen from Curt's stuff
 function! WordProcessorMode()
